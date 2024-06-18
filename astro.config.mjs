@@ -7,7 +7,7 @@ const { PUBLIC_WP_URL } = loadEnv(process.env.NODE_ENV, process.cwd(), "");
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-estates-course-nine.vercel.app/",
+  site: "https://astro-estates-course-nine.vercel.app",
   image: {
     domains: [PUBLIC_WP_URL],
   },
